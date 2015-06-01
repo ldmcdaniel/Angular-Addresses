@@ -1,0 +1,17 @@
+{
+  "name": "Angular-Addresses",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ldmcdaniel/Angular-Addresses",
+  "authors": [
+    "Lucas McDaniel <ldmcdaniel@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
