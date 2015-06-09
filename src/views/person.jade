@@ -1,0 +1,25 @@
+h1 {{main.person.name}}
+img(ng-src="{{main.person.photo}}")
+a(href="http://twitter.com/{{main.person.twitter}}", target="_blank") {{main.person.twitter}}
+a(href="tel:{{main.person.phone}}") {{main.person.phone}}
+a.btn.btn-primary(href="#/people/{{main.id}}/edit") Edit
+a.btn.btn-danger(ng-click="main.destroy()") Delete
+div(ng-include="'views/modal.html'" onload="main.onModalLoad()")
+
+
+//- table
+//-   thead
+//-     tr
+//-       th
+//-       th Photo
+//-       th Name
+//-       th Phone
+//-       th twitter
+//-   tbody
+//-     <!--When you loop over an object, you need to put (id, person)-->
+//-     tr(ng-repeat="(id, person) in main.people | objToArr | orderBy:'name' | filter:query")
+//-       td: button.btn-xs.btn-danger(ng-click="main.removeAddress(person._id)") X
+//-       td: img(ng-src="{{person.photo}}")
+//-       td {{person.name}}
+//-       td: a(href="tel:{{person.phone}}") {{person.phone}}
+//-       td: a(href="http://twitter.com/{{person.twitter}}" target="_blank") {{person.twitter}}
