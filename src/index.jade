@@ -6,7 +6,7 @@ html(lang="en-US", ng-app="angularAddresses")
     meta(name="viewport", content="width=device-width, initial-scale=1")
     title Angular Addresses
     link(rel="stylesheet" href="lib/build.css")
-    link(rel="stylesheet" href="css/main.css")
+    link(rel="stylesheet" href="assests/main.css")
 
     .container
       nav
@@ -26,4 +26,30 @@ html(lang="en-US", ng-app="angularAddresses")
       .app(ng-view)
 
     script(src="lib/build.js")
-    script(src="js/main.js")
+    <!--main.js must be first or it will not find the module-->
+    script(src="assets/main.module.js")
+
+
+    script(src="assets/auth/auth.config.js")
+    script(scr="assets/auth/Auth.factory.js")
+    script(src="assets/auth/login.controller.js")
+    script(src="assets/auth/logout.controller.js")
+
+    srcipt(src="assets/main.run.js")
+    script(src="assets/main.constants.js")
+    script(src="assets/main.filters.js")
+
+    script(src="assets/people/edit.controller.js")
+    script(src="assets/people/new.controller.js")
+    script(src="assets/people/person.controller.js")
+    script(src="assets/people/people.controller.js")
+    script(src="assets/people/people.config.js")
+
+    script(src="assets/static/static.config.js")
+
+
+
+
+
+
+
