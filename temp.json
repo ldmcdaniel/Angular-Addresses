@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Ben",
+        "twitter": "@bendover",
+        "phone": "476-578-9187",
+        "photo": "http://i.imgur.com/G3fSd51.gif"
+    },
+    {
+        "name": "Charity",
+        "twitter": "@charityforfree",
+        "phone": "909-898-7876",
+        "photo": "http://i.imgur.com/P7pkOEF.jpg"
+    },
+    {
+        "name": "Dan",
+        "twitter": "@dantheman",
+        "phone": "467-121-4820",
+        "photo": "http://i.imgur.com/6z3xkAH.gif"
+    },
+    {
+        "name": "Elsa",
+        "twitter": "@elsanotanna",
+        "phone": "783-901-0917",
+        "photo": "http://i.imgur.com/xDfzonf.jpg"
+    },
+    {
+        "name": "Amanda",
+        "twitter": "@amandalove",
+        "phone": "413-255-7651",
+        "photo": "http://i.imgur.com/O9tfm73.jpg?1"
+    }
+]
